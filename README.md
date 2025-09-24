@@ -58,8 +58,6 @@ Trade log with entry/exit points.
 
 Dashboard view of signals, P&L attribution, and order execution.
 
-(Insert screenshots here once you have them!)
-
 Project Structure
 quantitative_crypto_model.py   # Main framework
 notebooks/                     # Jupyter notebooks for research
