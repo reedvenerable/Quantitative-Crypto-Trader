@@ -20,6 +20,8 @@ Performance metrics: Sharpe, Calmar, max drawdown, hit rate.
 
 Interactive Streamlit dashboard for results and trade analysis.
 
+
+
 Installation
 
 Clone the repo and install dependencies:
@@ -39,7 +41,9 @@ scikit-learn
 
 streamlit
 
-Usage
+
+
+Usage:
 
 Run a backtest from the command line:
 
@@ -50,6 +54,8 @@ Or start the dashboard:
 
 streamlit run dashboard.py
 
+
+
 Example Output
 
 Equity curve plots with Sharpe/Calmar ratios.
@@ -57,10 +63,3 @@ Equity curve plots with Sharpe/Calmar ratios.
 Trade log with entry/exit points.
 
 Dashboard view of signals, P&L attribution, and order execution.
-
-Project Structure
-quantitative_crypto_model.py   # Main framework
-notebooks/                     # Jupyter notebooks for research
-data/                          # Sample input data (CSV, OHLC, L2 order book)
-dashboard.py                   # Streamlit dashboard
-README.md                      # Project documentation
